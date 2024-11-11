@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="formulas">
+        <div></div>
+        <div id="co"> <h1>Informações</h1>
+                <span class="correcao">Nome:<input id="name" class="espacos" type="text" maxlength="75" readonly></span>
+                <span class="correcao">Email:<input id="email" class="espacos" type="text" maxlength="75" readonly></span>
+                <br><span class="correcao">CPF: <input type="text" id="cpf" placeholder="xxx.xxx.xxx-xx"
+                        oninput=mascara_cpf() maxlength="14"> </span>
+                <br><span class="correcao">Telefone: <input class="espacos" placeholder="(xx) x xxxx-xxxx" type="tel"
+                        id="telefone" oninput=mascara_telefone() maxlength="14"></span>
+                        <span class="correcao">Senha:<input id="senha" class="espacos" type="text" maxlength="75" readonly></span>
+                        <a href="index.html"><button>volta</button></a>
+
+                        
+            <script src="pega.js" defer></script>
+</body>
+</html>
